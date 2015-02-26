@@ -98,6 +98,32 @@ p {
 
 }
 
+.moorhuhn
+{
+	background-color: #f1831e;
+	border-bottom: 5px solid #cf6a0d;
+	text-shadow: 0px -2px #cf6a0d;
+}
+
+.moorhuhn:hover
+{
+
+    background-color: #f49d4e
+}
+
+.wood
+{
+	background-color: #bb8650;
+	border-bottom: 5px solid #9c6c3c;
+	text-shadow: 0px -2px #9c6c3c;
+}
+
+.wood:hover
+{
+
+    background-color: #c29362
+}
+
 .green
 {
 	background-color: #82BF56;
@@ -112,14 +138,14 @@ p {
 
 .yellow
 {
-	background-color: #F2CF66;
-	border-bottom: 5px solid #D1B358;
-	text-shadow: 0px -2px #D1B358;
+	background-color: #eec136;
+	border-bottom: 5px solid #deac13;
+	text-shadow: 0px -2px #deac13;
 }
 
 .yellow:hover
 {
-	background-color: #f4d67e;
+	background-color: #f0c84e;
 }
 
 
