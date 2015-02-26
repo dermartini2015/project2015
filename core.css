@@ -251,7 +251,7 @@ p {
     z-index:2;
 }
 .switch input:checked + label {
-    color:#be8d20;
+    color:#f1831e;
     moz-transition:all 0.4s ease-in 0s;
     o-transition:all 0.4s ease-in 0s;
     transition:all 0.4s ease-in 0s;
