@@ -1,17 +1,21 @@
 <html lang="en">
 <head>
-  <meta name="author" content="www.twitter.com/cheeriottis">
-  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="core.css">
+  <link rel="stylesheet" href="/styles/reset.cssr">
+  <link rel="stylesheet" href="/styles/core.css">
 
 
 </head>
 <body>
     <div id="game_object" style="position: relative">
-        <canvas id="game" height="768" width="1024" style="position: absolute;"></canvas>
+        <canvas id="game_engine" width="1024" height="768"></canvas>
+        <img id="moorhuhn" src="images/moorhuhn.gif">
+        <img id="kugel" src="images/kugel.png">
+        <div id="ammo">10</div>
+        <div id="score">0</div>
+        <div id="time">60</div>
+        <script src="/scripts/game.js" type="text/javascript" charset="utf-8"></script>
 
         <div id="menu">
             <div id="buttonsDiv">
@@ -185,6 +189,7 @@
 
     </div> <!-- ENDE DIV GAMEOBJEKT -->
 
-    <script src="script1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/scripts/menu.js" type="text/javascript" charset="utf-8"></script>
+
 </body>
 </html>
