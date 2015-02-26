@@ -2,19 +2,19 @@
 <head>
   <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/styles/reset.cssr">
+  <link rel="stylesheet" href="/styles/reset.css">
   <link rel="stylesheet" href="/styles/core.css">
 
 
 </head>
 <body>
     <div id="game_object" style="position: relative">
-        <canvas id="game_engine" width="1024" height="768"></canvas>
-        <img id="moorhuhn" src="images/moorhuhn.gif">
-        <img id="kugel" src="images/kugel.png">
-        <div id="ammo">10</div>
-        <div id="score">0</div>
-        <div id="time">60</div>
+        <canvas id="game" width="1024" height="768" style="position: absolute;" ></canvas>
+        <img id="moorhuhn" src="images/moorhuhn.gif" class="hidden">
+        <img id="kugel" src="images/kugel.png" class="hidden">
+        <div id="ammo" class="hidden">10</div>
+        <div id="score" class="hidden">0</div>
+        <div id="time" class="hidden">60</div>
         <script src="/scripts/game.js" type="text/javascript" charset="utf-8"></script>
 
         <div id="menu">
