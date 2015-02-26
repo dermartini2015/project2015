@@ -279,7 +279,7 @@ p {
 .switch.switch-three input:checked:last-of-type ~ .switch-button {
     left:83.26%;
 }
-<<<<<<< HEAD
+
 .switch.fcRed .switch-button {
     border-bottom:solid 1px red;
 }
@@ -304,7 +304,7 @@ p {
 
 
 .switch .switch-button {
->>>>>>> project2015/master
+
     border-bottom:solid 1px #6B6B6B;
     clear:both;
     height:100%;
@@ -318,8 +318,3 @@ p {
     webkit-transition:all 0.3s ease-out;
     z-index:1;
 }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> project2015/master
