@@ -2,7 +2,8 @@
 <head>
   <meta name="author" content="www.twitter.com/cheeriottis">
   <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="core.css">
 
@@ -14,19 +15,33 @@
 
         <div id="menu">
             <div id="buttonsDiv">
+                <div id=logoSchrift>
 
-                <img src="images/Moorhuhn.png" width="200" id=img>
+                <table>
+                <tr>
+                    <td> Fang</td>
+                    <td> <img src="images/sl_1.gif" height="150"></td>
+                    <td> Isaac</td>
+                    </tr>
 
-                <a href="#" class="action-button animate moorhuhn" id="anleitungButton">Spielanleitung</a>
-                <a href="#" class="action-button animate red" id="spielstarten">Spiel starten</a>
-                <a href="#" class="action-button animate wood" id="einstellungen">Einstellungen</a>
+                </table>
+
+
+                </div>
+                <br>
+                <br>
+                <br>
+                <a href="#" class="action-button animate green" id="anleitungButton">Spielanleitung</a>
+                <a href="#" class="action-button animate blue" id="spielstarten">Spiel starten</a>
+                <a href="#" class="action-button animate red" id="einstellungen">Einstellungen</a>
                 <a href="#" class="action-button animate yellow" id="highscore">Highscore</a>
         </div>
 
         <div id="spielanleitungDiv"  class="hidden">
 
+            <br>
 
-            <p >Ziel des Spiels ist sdfssdfsdfdes, die fliegenden „Moorhühner“ abzuschießen. <br><br>
+            <p >Ziel des Spiels ist es, die fliegenden „Moorhühner“ abzuschießen. <br><br>
 
                 Je mehr Sie davon in den vorgegebenen 90 Sekunden treffen, umso höher fällt Ihre Punktezahl aus. Dabei steuern Sie das                      Zielkreuz mit der Maus, per Linksklick feuern Sie eine Ladung Schrot ab.
             </p>
@@ -39,16 +54,51 @@
             </p>
 
 
-        <a href="#" class="action-button shadow animate moorhuhn" id="zuruckAnleitungButton">Zurück</a>
+        <a href="#" class="action-button shadow animate green" id="zuruckAnleitungButton">Zurück</a>
 
         </div> <!-- ENDE DIV SPIELANLEITUNG -->
 
+        <div id="eintragenHighscoreDiv" class="hidden" >
+          <p>
+              <br/>Gut gezielt!<br/>
+          </p>
+
+          <p>Du hast es geschafft, in die Highscore zu kommen. </p>
+
+            <form method="post" id="formular">
+		     <p> Highscore – Dein Name<br/></p>
+                <input type="text" name="name" placeholder="Name"/>
+		        <input type="hidden" name="punkte" id="punkte">
+		        <input type="button" value="senden" id="sendehighscore"/>
+		  <br/>
+
+	       </form>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+        <a href="#" class="action-button shadow animate blue" id="nochmalspielenButton">Nochmal spielen!</a>
+        <a href="#" class="action-button shadow animate blue" id="zurückzumMenüButton">Menü</a>
+
+        </div> <!-- ENDE DIV SPIELANLEITUNG -->
+
+
+
+
+
+
         <div id="spieleinestellungen" class="hidden">
 
-            <p>
-                Einstellungen
-            </p>
-
+             <h2>Einstellungen</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <!-- Einstellen des Schwierigkeitsgrades           -->
 
            <div class="spaceEmOut">
@@ -117,17 +167,19 @@
         </fieldset>
       </div>
 
-        <a href="#" class="action-button shadow animate moorhuhn" id="zuruckEinstellungenButton">Zurück</a>
+        <a href="#" class="action-button shadow animate blue" id="zuruckEinstellungenButton">Zurück</a>
 
         </div> <!-- ENDE DIV EINSTELLUNGEN -->
         </div> <!-- ENDE DIV Menü -->
+
+
 
         <!--  Menübutton der immer oben links im Spiel erscheint, wenn das Spiel läuft
         um jederzeit ins Menü zu kommen
         -->
 
         <div id="onlymenubuttondiv" class="hidden">
-            <a href="#" class="animate moorhuhn menubutton" id="onlymenu">Menü</a>
+            <a href="#" class="animate red menubutton" id="onlymenu">Menü</a>
 
         </div> <!-- ENDE DIV ONLYMENÜBUTTON -->
 

@@ -1,6 +1,30 @@
+td {
+    height: 150px;
+    vertical-align: bottom;
+}
+
+.fang {
+    height: 100px;
+    width: 200px;
+    padding: 25px 0;
+    margin: 0;
+    float: left;
+}
+
+#logoSchrift {
+    font-size: 100px;
+    font-family: 'Cabin Sketch', cursive;
+
+}
+
 body
 {
 	padding: 10px;
+
+h1 {
+
+font-family: 'Bubblegum Sans', cursive;
+font-size:20px; }
 
 }
 
@@ -11,8 +35,8 @@ body
 
 p {
     padding: 10px;
-    font-family: 'Chewy', cursive;
-	font-size: 20px;
+    font-family: 'Bubblegum Sans', cursive;
+	font-size: 23px;
 }
 
 
@@ -22,7 +46,10 @@ p {
 
 #menu {
     position: relative;
-    padding: 60px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 130px;
     width: 700;
     height: 400px;
 
@@ -45,7 +72,7 @@ p {
 }
 
 #zuruckAnleitungButton, #zuruckEinstellungenButton {
-    margin-top: 80px;
+    margin-top: 50px;
 
 }
 
@@ -64,8 +91,7 @@ p {
     display: block;
     width: 300px;
 	border-radius: 10px;
-/*	font-family: 'Pacifico', cursive;*/
-    font-family: 'Chewy', cursive;
+    font-family: 'Bubblegum Sans', cursive;
 	font-size: 30px;
 	color: #FFF;
 	text-decoration: none;
@@ -95,33 +121,6 @@ p {
 .red:hover
 {
 	background-color: #ea6153;
-
-}
-
-.moorhuhn
-{
-	background-color: #f1831e;
-	border-bottom: 5px solid #cf6a0d;
-	text-shadow: 0px -2px #cf6a0d;
-}
-
-.moorhuhn:hover
-{
-
-    background-color: #f49d4e
-}
-
-.wood
-{
-	background-color: #bb8650;
-	border-bottom: 5px solid #9c6c3c;
-	text-shadow: 0px -2px #9c6c3c;
-}
-
-.wood:hover
-{
-
-    background-color: #c29362
 }
 
 .green
@@ -174,7 +173,7 @@ p {
     display: block;
     width: 40px;
 	border-radius: 10px;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Bubblegum Sans', cursive;
 	font-size: 15px;
 	color: #FFF;
 	text-decoration: none;
@@ -208,7 +207,7 @@ p {
 .switch {
     border:0;
     color:#000;
-    font-family: 'Chewy', cursive;
+    font-family: 'Bubblegum Sans', cursive;
     font-size:25px;
     padding:0;
     position:relative;
@@ -323,15 +322,15 @@ p {
 }
 
 .switch .switch-button2 {
-=======
+
 
 /* ENDE CSS für die Einstellungen des Spiels*/
-
+}
 
 
 .switch .switch-button {
 
-    border-bottom:solid 1px #6B6B6B;
+    border-bottom:solid 1px #6b6b6b;
     clear:both;
     height:100%;
     left:50%;
@@ -343,4 +342,25 @@ p {
     transition:all 0.3s ease-out;
     webkit-transition:all 0.3s ease-out;
     z-index:1;
+}
+
+#logosytle {
+    float: left;
+}
+
+#logotext {
+    font-size: 50px;
+}
+
+.isaacimg {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    float:left;
+}
+
+
+table {
+    margin: auto;
 }
